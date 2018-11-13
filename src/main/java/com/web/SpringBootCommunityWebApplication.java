@@ -14,6 +14,13 @@ import org.springframework.context.annotation.Bean;
 import java.time.LocalDateTime;
 import java.util.stream.IntStream;
 
+
+/**
+ * Springboot 각종 적용 테스트를 위한 프로젝트
+ *
+ * test URL :
+ *  http://localhost:8080/board/list
+ */
 @SpringBootApplication
 @EnableCaching	// Using Cache
 public class SpringBootCommunityWebApplication {
