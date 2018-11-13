@@ -32,6 +32,7 @@ dependencies {
 	runtimeOnly('com.h2database:h2')
 	compileOnly('org.projectlombok:lombok')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 	compile('org.springframework.boot:spring-boot-starter-cache')
-	compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.6'
+	compile('net.sf.ehcache:ehcache:2.10.3')
 }
