@@ -16,7 +16,12 @@ import java.util.stream.IntStream;
 
 
 /**
+ * 1. What is this project for?
  * Springboot 각종 적용 테스트를 위한 프로젝트
+ *
+ *
+ * 2. How to test this project?
+ * Run SpringBootCommunityWebApplication
  *
  * test URL :
  *  http://localhost:8080/board/list
