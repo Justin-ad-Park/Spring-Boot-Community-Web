@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 import java.util.stream.IntStream;
 
 @SpringBootApplication
-@EnableCaching
+@EnableCaching	// Using Cache
 public class SpringBootCommunityWebApplication {
 
 	public static void main(String[] args) {
