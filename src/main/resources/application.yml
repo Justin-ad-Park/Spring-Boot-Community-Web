@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+ehcache:
+  config:
+    filename: ehcache.xml
